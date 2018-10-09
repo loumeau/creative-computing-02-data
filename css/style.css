@@ -12,7 +12,6 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
 }
 
 h1 {
@@ -119,4 +118,64 @@ h4 {
 .time {
   font: helvetica-light;
   size: 10pt;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 0px) {
+  .box-1 {
+    width: 100%;
+  }
+  .box-2 {
+    width: 100%;
+  }
+  .box-3 {
+    width: 100%;
+  }
+
+  #name {
+    font-size: 12pt;
+  }
+
+  .box-content {
+  font-size: 12px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .box-1 {
+    width: 30%;
+  }
+  .box-2 {
+    width: 30%;
+  }
+  .box-3 {
+    width: 40%;
+  }
+
+  .box-content {
+  font-size: 24px;
+  }
+
+
+}
+
+/* Large devices (laptops/desktops, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+  .box-1 {
+    width: 40%;
+  }
+
+  .box-2 {
+    width: 25%;
+  }
+
+  .box-3 {
+    width: 35%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+
 }
